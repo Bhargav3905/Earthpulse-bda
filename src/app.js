@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import earthquakeRoutes from "./routes/earthquake.routes.js";
+import analyticsRoutes from "./routes/analytics.routes.js";
 
 const app = express();
 
